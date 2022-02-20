@@ -1,0 +1,10 @@
+# DirectoryIndex file1.html
+#Options -Indexes
+
+# Redirect /apache/file1/apache/dir-test/file1.html/]
+RewriteEngine On
+# RewriteRule rewrite-test/index.html /apache/rewrite-test/tmp.html
+# RewriteBase 
+RewriteBase /apache/rewrite-test/
+
+# Redirect /apache/redirect-test /apache
